@@ -33,7 +33,7 @@ const Header = () => {
         </View>
       </View>
 
-      {totalCount > 0 && (
+      
         <View style={styles.progressContainer}>
             <View style={styles.progressBarContainer}>
                 <View style={styles.progressBar}>
@@ -45,7 +45,6 @@ const Header = () => {
                     <Text style={styles.progressText}>{Math.round(progressPercentage)}%</Text>
             </View>
         </View>
-      )}
 
     </View>
   )
